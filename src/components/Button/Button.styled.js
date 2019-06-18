@@ -27,6 +27,10 @@ const Button = styled.button`
   }}
 
   ${({ disabled }) => (disabled ? "background-color: #d6d6d6" : "")};
+
+  ${({ theme }) => {
+    return theme.components.button || "";
+  }}
 `;
 
 export default Button;

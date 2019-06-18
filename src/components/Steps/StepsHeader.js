@@ -31,7 +31,6 @@ const StepsHeader = props => {
               hasLine={steps.length !== index + 1}
               step={index + 1}
               active={currentStep >= index}
-              currentStep
             />
           );
         })}

@@ -9,7 +9,6 @@ const StepsStep = props => {
   const {
     active,
     children,
-    currentStep,
     hasLine,
     index,
     onClick,
@@ -50,7 +49,6 @@ StepsStep.propTypes = {
   active: PropTypes.bool,
   children: PropTypes.node,
   className: PropTypes.string,
-  currentStep: PropTypes.number,
   hasLine: PropTypes.bool,
   index: PropTypes.number,
   onClick: PropTypes.func,
